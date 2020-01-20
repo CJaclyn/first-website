@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Donate</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="generalstylesheet.css">
+<link rel="stylesheet" type="text/css" href="donatestylesheet.css">
+<body>
+
+	<!-- Navigation -->
+	<div class="navbar">
+		<ul id="nav">
+			<li>
+				<a href="index.html" id="home">G O R I L L A</a>
+			</li>
+			<li><a href="about.html" id="about">About</a></li>
+			<li><a href="donate.html" id="donatelink" class="navitems">Donate</a></li>
+      <li><a href="famousgorillas.html" id="famous" class="navitems">Famous Gorillas</a></li>
+      <li><a href="conservation.html" id="conservation" class="navitems">Conservation</a></li>
+      <li><a href="facts.html" id="facts" class="navitems">Facts</a></li>
+		</ul>
+	</div>
+
+<!-- Donation form -->
+<div class="form">
+	<form>
+		<p id="donatelogo">MAKE A DONATION</p>
+		<p id="donationdesc"> Gorillas are currently at risk of extinction. Together we can combat this
+			issue and bring the gorillas back to a stable population! You can choose which
+			conservation group you want to donate to. This money will be used to protect and
+			rebuild gorilla habitats, rescue missions, medical, and much more. You have the
+			option of choosing which conservation organization you want to donate to. </p>
+
+		<div id=contribution>
+			<p id="amount" class="title">Contribution Amount</p>
+			<div id = "donations">
+				<label class="container">
+					<input type="radio" value="25.00" name="donationitem" checked="checked">$25</button>
+				</label>
+				<label class="container">
+					<input type="radio" value="50.00" name="donationitem">$50</button>
+				</label>
+				<label class="container">
+					<input type="radio" value="100.00" name="donationitem">$100</button>
+				</label>
+					<input type="text" name="customamount" placeholder="$0.00">
+			</div>
+		</div>
+
+
+		<div id="organization">
+			<p id="org" class="title">Organization</p>
+			<select id="orgmenu">
+				<option value="uwa">Uganda Wildlife Authority</option>
+	  		<option value="igcp">International Gorilla Conservation Programme</option>
+	  		<option value="wwf">World Wildlife Fund</option>
+	  		<option value="wcs">Wildlife Conservation Society</option>
+				<option value="vnp">Virunga National Park</option>
+			</select>
+		</div>
+
+		<div id="contactinfo">
+			<p id="contact" class="title">Contact</p>
+			<div class="row">
+				<div class="column">
+					<label class="item" for="fullname">Full Name</label><br>
+					<input type="text" name="contactitem" class="input" id="fullname">
+					<label for="city" class="item">City</label><br>
+					<input type="text" name="contactitem" class="input" id="city">
+					<label for="zipcode" class="item">Zipcode</label><br>
+					<input type="text" name="contactitem" class="input" id="zipcode">
+				</div>
+				<div class="column">
+					<label for="address" class="item">Address</label><br>
+					<input type="text" name="contactitem" class="input" id="address">
+					<label for="state" class="item">State</label><br>
+					<input type="text" name="contactitem" class="input" id="state">
+					<label for="email" class="item">Email</label><br>
+					<input type="text" name="contactitem" class="input" id="email">
+				</div>
+			</div>
+		</div>
+
+		<div class="paymentinfo">
+			<p id="payment" class="title">Payment</p>
+			<div class="row">
+				<div class="column">
+					<label for="cardnumber" class="item">Card Number</label>
+					<input type="text" name="paymentitem" class="input" placeholder="•••• •••• •••• ••••" id="cardnumber">
+				</div>
+				<div class="column">
+					<label for="cardexp" class="item">Card Expiration</label>
+					<input type="text" name="paymentitem" class="input" placeholder="MM/YY" id="cardexp">
+				</div>
+			</div>
+		</div>
+
+		<div id="donatebutton">
+			<a href="thankyou.html">Donate</a>
+		</div>
+
+	</form>
+</div>
+
+<footer>
+		<ul>
+			<h4>FACTS</h4>
+			<li><a href="facts.html" class="first">Facts</a></li>
+			<li><a href="mountaingorilla.html">Mountain Gorilla</a></li>
+			<li><a href="crossriver.html">Cross River Gorilla</a></li>
+			<li><a href="westlowland.html">Western Lowland Gorilla</a></li>
+			<li><a href="eastlowland.html">Eastern Lowland Gorilla</a></li>
+		</ul>
+		<ul >
+			<h4>CONSERVATION</h4>
+			<li><a href="conservation.html" class="first">Conservation</a></li>
+			<li><a href="https://www.ugandawildlife.org/">Uganda Wildlife Authority</a></li>
+			<li><a href="https://www.worldwildlife.org/species/gorilla">World Wildlife Fund</a></li>
+			<li><a href="http://igcp.org/">International Gorilla Conservation Programme</a></li>
+			<li><a href="https://www.wcs.org/">Wildlife Conservation Society</a></li>
+		</ul>
+		<ul >
+			<h4>FAMOUS</h4>
+			<li><a href="famousgorillas.html" class="first">Famous Gorillas</a></li>
+			<li><a href="kokogallery.html">Koko Photo Gallery</a></li>
+			<li><a href="snowflakegallery.html">Snowflake Photo Gallery</a></li>
+			<li><a href="winstongallery.html">Winston Photo Gallery</a></li>
+		</ul>
+		<ul >
+			<h4>OTHER LINKS</h4>
+			<li><a href="about.html" class="first">About</a></li>
+			<li><a href="sign-up.html">Sign-Up</a></li>
+			<li><a href="donate.html" class="first">Donate</a></li>
+		</ul>
+</footer>
+</body>
+</html>
